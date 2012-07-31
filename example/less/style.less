@@ -1,0 +1,85 @@
+@import "bootstrap/bootstrap.less";
+
+html, body {
+	height: 100%;
+}
+
+html {
+	background:url(../img/bg.png) repeat-x rgba(202,207,210,1);
+}
+
+body {
+	min-height: 580px;
+	background: url(../img/bgFx.png);
+}
+
+@import "bootstrap/responsive.less";
+@import "fonts.less";
+@import "lightbox.less";
+@import "helpers.less";
+@import "projects.less";
+
+/* ===== Primary Styles ========================================================
+  Author: @jceb
+========================================================================== */
+
+header {
+	text-align: center;
+	margin: 15px 0;
+}
+
+.header-shadow {
+	background: url(../img/header_shadow.png) center center;
+	height: 24px;
+}
+
+.slideshow {
+	position: absolute;
+	top: 140px;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	.slides {
+		background: @white;
+		position: relative;
+		.transition-duration(.5s);
+		padding: 10px 5px;
+		.slide {
+			margin: 0 5px;
+			float: left;
+		}
+		clear: both;
+	}
+	clear: both;
+}
+
+.menu {
+	text-align: center;
+	margin-bottom: 15px;
+	.nav {
+		width: auto;
+		margin: 0 auto;
+	}
+	.btn {
+		.border-radius(0) !important;
+	}
+}
+
+footer {
+	width: 97%;
+	padding: 1.5%;
+	height: 24px;
+	font-size: 11px;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+}
+
+.footer-child {
+	width: 33.3%;
+	float: left;
+	color: #919598;
+	display: block;
+}
+
+a.footer-child:hover {
+	color: #575B5D;
+}
