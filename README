@@ -1,0 +1,33 @@
+JQuery JSlideshow
+=================
+
+It's a plugin for create awesome slideshow, you can use it for any html tag.
+
+Implementation
+______________
+
+All you need is just necessary a div tag with the class "slideshow".
+
+<div class="slideshow">
+</div>
+
+Inside a .slideshow you need a div with the class "slides".
+
+<div class="slideshow">
+  <div class="slides">
+  </div>
+</div>
+
+Inside .slides you can put any html tag with the class "slide".
+
+<div class="slideshow">
+  <div class="slides">
+    <img src="" alt="" class="slide">
+    <img src="" alt="" class="slide">
+  </div>
+</div>
+
+On your javascript file you need initialize the slideshow, all you have to do is:
+
+$('.slideshow').slideshow();
+
