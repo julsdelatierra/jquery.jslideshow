@@ -1,10 +1,8 @@
-JQuery JSlideshow
-=================
+== JQuery JSlideshow ==
 
 It's a plugin for create awesome slideshow, you can use it for any html tag.
 
-Implementation
-______________
+=== Implementation ===
 
 All you need is just necessary a div tag with the class "slideshow".
 
@@ -30,4 +28,6 @@ Inside .slides you can put any html tag with the class "slide".
 On your javascript file you need initialize the slideshow, all you have to do is:
 
 $('.slideshow').slideshow();
+
+That's it!
 
