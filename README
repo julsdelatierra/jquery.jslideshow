@@ -4,6 +4,11 @@ It's a plugin for create awesome slideshow, you can use it for any html tag.
 
 === Implementation ===
 
+Include JSlideshow files to your html index file.
+
+<script src="jslideshow.js" type="text/javascript">
+<link href="jslideshow.css" rel="stylesheet" type="text/css">
+
 All you need is just necessary a div tag with the class "slideshow".
 
 <div class="slideshow">

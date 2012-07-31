@@ -18,6 +18,7 @@ body {
 @import "lightbox.less";
 @import "helpers.less";
 @import "projects.less";
+@import "jslideshow.less";
 
 /* ===== Primary Styles ========================================================
   Author: @jceb
@@ -31,26 +32,6 @@ header {
 .header-shadow {
 	background: url(../img/header_shadow.png) center center;
 	height: 24px;
-}
-
-.slideshow {
-	position: absolute;
-	top: 140px;
-	left: 0;
-	width: 100%;
-	overflow: hidden;
-	.slides {
-		background: @white;
-		position: relative;
-		.transition-duration(.5s);
-		padding: 10px 5px;
-		.slide {
-			margin: 0 5px;
-			float: left;
-		}
-		clear: both;
-	}
-	clear: both;
 }
 
 .menu {

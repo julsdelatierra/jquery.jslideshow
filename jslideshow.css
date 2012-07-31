@@ -1,0 +1,28 @@
+.slideshow {
+  position: absolute;
+  top: 140px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  clear: both;
+}
+.slideshow .slides {
+  background: #ffffff;
+  position: relative;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  padding: 10px 5px;
+  clear: both;
+}
+.slideshow .slides .slide {
+  margin: 0 5px;
+  float: left;
+}
