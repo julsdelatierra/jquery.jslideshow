@@ -9,19 +9,19 @@ Include JSlideshow files to your html index file.
 <script src="jslideshow.js" type="text/javascript">
 <link href="jslideshow.css" rel="stylesheet" type="text/css">
 
-All you need is just necessary a div tag with the class "slideshow".
+All you need is just a div tag with the class "slideshow".
 
 <div class="slideshow">
 </div>
 
-Inside a .slideshow you need a div with the class "slides".
+Inside a .slideshow add a div with the class "slides".
 
 <div class="slideshow">
   <div class="slides">
   </div>
 </div>
 
-Inside .slides you can put any html tag with the class "slide".
+And inside .slides you can append any html tag with the class "slide".
 
 <div class="slideshow">
   <div class="slides">
@@ -30,7 +30,7 @@ Inside .slides you can put any html tag with the class "slide".
   </div>
 </div>
 
-On your javascript file you need initialize the slideshow, all you have to do is:
+On your javascript file you need initialize the slideshow, all you have to do is just write this code:
 
 $('.slideshow').slideshow();
 
