@@ -13,6 +13,7 @@ All you need is just a div tag with the class "slideshow".
 
 <div class="slideshow">
 </div>
+<div id="slideshow-helper"></div>
 
 Inside a .slideshow add a div with the class "slides".
 
@@ -20,6 +21,7 @@ Inside a .slideshow add a div with the class "slides".
   <div class="slides">
   </div>
 </div>
+<div id="slideshow-helper"></div>
 
 And inside .slides you can append any html tag with the class "slide".
 
@@ -33,6 +35,7 @@ And inside .slides you can append any html tag with the class "slide".
     </div>
   </div>
 </div>
+<div id="slideshow-helper"></div>
 
 On your javascript file you need initialize the slideshow, all you have to do is just write this code:
 
