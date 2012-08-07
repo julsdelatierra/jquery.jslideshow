@@ -25,8 +25,12 @@ And inside .slides you can append any html tag with the class "slide".
 
 <div class="slideshow">
   <div class="slides">
-    <img src="" alt="" class="slide">
-    <img src="" alt="" class="slide">
+    <div class="slide">
+      <img src="" alt="">
+    </div>
+    <div class="slide">
+      <img src="" alt="">
+    </div>
   </div>
 </div>
 
